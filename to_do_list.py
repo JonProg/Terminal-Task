@@ -42,6 +42,7 @@ tasks_exclude = []
 
 while True:
     salvar(tasks, CAMINHO_ARQUIVO)
+    print()
     task = input('Nova Tarefa:').strip()
 
     if len(task) <=2:
